@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Sudoku</title>
+    
+    <link rel="stylesheet" href="sudoku.css">
+    
+    <style>
+        
+        .horizontal-line { 
+            border-bottom: 3px solid black !important; 
+        }
+        .vertical-line { 
+            border-right: 3px solid black !important; 
+        }
+        
+        
+        body.correct-background { 
+            background-color: #d4edda !important; 
+            transition: background-color 0.1s ease !important; 
+        }
+    </style>
+
+    <script src="sudoku.js" defer></script>
+</head>
+
+<body>
+    <h1>Sudoku for funnn!!!</h1>
+    <hr>
+    <div id="timer">Timp: 0:00</div> <h2 id="errors">Numărul de greșeli: 0</h2>
+    <div id="message-area"></div> <div id="board"></div>
+    <br>
+    <div id="digits"></div>
+</body>
+</html>
