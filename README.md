@@ -20,11 +20,12 @@ Currently in active development (Work in Progress).
 - **CSS3:** Styling, grid layouts, 3D button effects, and smooth animations.
 - **Vanilla JavaScript:** Game logic, DOM manipulation, board validation, and dynamic generation. No external libraries or frameworks were used.
 
-## 🚀 How to Run the Game
+## 🚀 How to run the game
 
 Since this is a plain front-end application, running it is incredibly simple and requires no installations or servers:
 
 1. Download the project files to your computer (either by cloning the repository or downloading the ZIP file).
 2. Open the folder where you saved the files.
 3. Double-click on the `index.html` file to open it directly in any modern web browser.
+
 4. Have fun playing!
